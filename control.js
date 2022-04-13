@@ -6,11 +6,12 @@ console.log(saveCount)
 
 function increment(){
     count += 1
-    repCount.innerText = count
+    repCount.textContent = count
 }
 
 function save(){
     newCount = count + " - "
-    saveCount.innerText += newCount
-    console.log(newCount)
+    saveCount.textContent += newCount
+    repCount.textContent = 0
+    count = 0
 }

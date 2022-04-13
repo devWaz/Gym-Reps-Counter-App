@@ -1,6 +1,6 @@
 let addCount = document.getElementById("repCount")
 let  count = 0
-let saveCount = document.getElementById("entries")
+let saveCount = document.getElementById("Entries")
 console.log(addCount)
 console.log(saveCount)
 

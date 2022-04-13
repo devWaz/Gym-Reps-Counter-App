@@ -1,10 +1,8 @@
-//document.getElementById("repCount").innerText = 4
-
-let  count = 0
-
 let addCount = document.getElementById("repCount")
-
+let  count = 0
+let saveCount = document.getElementById("entries")
 console.log(addCount)
+console.log(saveCount)
 
 function increment(){
     count += 1
@@ -12,5 +10,7 @@ function increment(){
 }
 
 function save(){
-    console.log(count)
+    newCount = count + " - "
+    saveCount.innerText += newCount
+    console.log(newCount)
 }

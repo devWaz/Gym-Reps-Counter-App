@@ -24,27 +24,34 @@ body{
 }
 
 .increment{
-    width: 50%;
-    height: 3rem;
     color: white;
     font-weight: bold;
     background-color: green;
     border-radius: 10px;
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 .increment:hover{
     background-color: rgb(1, 75, 1);
 }
 
+.decrement{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
 .save{
-    width: 50%;
-    height: 3rem;
     color: white;
     font-weight: bold;
     background-color: blue;
     border-radius: 10px;
     margin-top: 1rem;
+    padding: 1rem;
 }
 
 .save:hover{
@@ -54,4 +61,8 @@ body{
 .counter p {
     margin-top: 1rem;
     font-size: larger;
+}
+
+#repCount{
+    margin-bottom: 5rem;
 }

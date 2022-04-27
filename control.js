@@ -9,6 +9,11 @@ function increment(){
     repCount.textContent = count
 }
 
+function decrement(){
+    count -= 1
+    repCount.textContent = count
+}
+
 function save(){
     newCount = count + " - "
     saveCount.textContent += newCount

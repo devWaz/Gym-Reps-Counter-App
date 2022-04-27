@@ -15,7 +15,7 @@ body{
     text-align: center;
     width: 60%;
     color: white;
-    height: 20rem;
+    height: 22rem;
     margin: auto;
     margin-top: 7rem;
     padding-top: 1.5rem;
@@ -27,7 +27,7 @@ body{
     color: white;
     font-weight: bold;
     background-color: green;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 1rem;
     padding: 1rem;
 }
@@ -40,16 +40,20 @@ body{
     color: white;
     font-weight: bold;
     background-color: red;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 1rem;
     padding: 1rem;
+}
+
+.decrement:hover{
+    background-color: rgb(158, 5, 5);
 }
 
 .save{
     color: white;
     font-weight: bold;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 5px;
     margin-top: 1rem;
     padding: 1rem;
 }
@@ -64,5 +68,5 @@ body{
 }
 
 #repCount{
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
 }
